@@ -25,16 +25,16 @@
 
 	bottom: 0;
 	left: 0;
-	right: 0;
+	right: 16em; /*16em if centered over map, 0 if centered over the whole Page*/
 }
 
 .footer2 {
-	padding: .2em .3em .2em;
+	padding: .15em .2em .15em;
 	border-radius: .8em .8em 0 0;
 
 	/*clear:both;*/
 
-	font-size: .7em;
+	font-size: .65em;
 	display: inline-block;
 	background-color: white;
 }
