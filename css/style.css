@@ -1,0 +1,40 @@
+.map {
+
+	height: 100%;
+	top: 0;
+
+	left:0;
+	/*margin-left: 17.5em;*/
+	box-sizing: border-box;
+	display: table-cell;
+}
+
+.body {
+	position: absolute;
+
+	margin-bottom: 30px;
+	top:0;
+	bottom:0;
+	display: table;
+	padding: 5px;
+
+	width: 100%;
+	height: inherit;
+}
+#footer {
+	clear:left;
+	margin-top:1em;
+	font-size: smaller;
+	text-align:center;
+	padding:10px;
+}
+.controlpanel {
+
+
+	width: 15em;
+	padding: 1em 1em;
+	display: table-cell;
+	vertical-align: top;
+	background-color: aliceblue;
+/*	color: aliceblue;*/
+}
