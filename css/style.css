@@ -1,40 +1,51 @@
 .map {
 
+	width: calc(100% - 16em);
 	height: 100%;
-	top: 0;
+	float: left;
 
-	left:0;
-	/*margin-left: 17.5em;*/
-	box-sizing: border-box;
-	display: table-cell;
 }
 
-.body {
+.container {
 	position: absolute;
 
-	margin-bottom: 30px;
-	top:0;
-	bottom:0;
-	display: table;
-	padding: 5px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 
-	width: 100%;
-	height: inherit;
+	float: left;
+
 }
-#footer {
-	clear:left;
-	margin-top:1em;
-	font-size: smaller;
-	text-align:center;
-	padding:10px;
+
+.footer {
+	position: absolute;
+	/*clear:both;*/
+	text-align: center;
+
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
+
+.footer2 {
+	padding: .2em .3em .2em;
+	border-radius: .8em .8em 0 0;
+
+	/*clear:both;*/
+
+	font-size: .7em;
+	display: inline-block;
+	background-color: white;
+}
+
 .controlpanel {
 
-
+	float: left;
 	width: 15em;
-	padding: 1em 1em;
-	display: table-cell;
+	padding: .5em .5em;
+
 	vertical-align: top;
 	background-color: aliceblue;
-/*	color: aliceblue;*/
+
 }
