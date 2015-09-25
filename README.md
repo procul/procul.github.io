@@ -8,4 +8,3 @@ There also will be multiple possible distane measures such as linear distance, d
 
 This project will be a one-man-project and i hope i can fulfill my ambitions as i have never worked with GIS or even programmed javascript.
 
-Regards, Markus Richter
