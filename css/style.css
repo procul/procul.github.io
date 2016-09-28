@@ -35,6 +35,7 @@
 }
 
 .footer {
+	/*display:none;*/
 	position: absolute;
 	/*clear:both;*/
 	text-align: center;

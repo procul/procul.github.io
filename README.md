@@ -7,4 +7,3 @@ It will be possible to combine multiple categories and customize the calculation
 There also will be multiple possible distane measures such as linear distance, distance by foot, distance by car, maybe distance by train?
 
 This project will be a one-man-project and i hope i can fulfill my ambitions as i have never worked with GIS or even programmed javascript.
-
