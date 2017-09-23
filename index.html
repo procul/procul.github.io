@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-Copyright 2015 Markus Richter
+Copyright 2017 Markus Richter
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -41,6 +41,20 @@ limitations under the License.
 		Hier kommen Controls rein!<br> hier auch!<br>
 		Hier kommen Controls rein!<br> hier auch!<br>
 		Hier kommen Controls rein!<br> hier auch!<br>
+
+		<form><label for="amenity">Select Amenity:</label>
+			<select id="amenity" onchange="drawVoronoi()">
+			<option value="bar">bar</option>
+			<option value="bbq">bbq</option>
+			<option value="biergarten">biergarten</option>
+			<option value="cafe">cafe</option>
+			<option value="drinking_water">drinking_water</option>
+			<option value="fast_food">fast_food</option>
+			<option value="food_court">food_court</option>
+			<option value="ice_cream">ice_cream</option>
+			<option value="pub">pub</option>
+			<option value="restaurant">restaurant</option>
+		</select></form>
 		<a id="statusbar"></a>
 	</div>
 </div>
@@ -63,7 +77,7 @@ limitations under the License.
 		layers: [
 			new ol.layer.Tile({
 //				source: new ol.source.MapQuest({layer: 'sat'})
-				source: new ol.source.BingMaps({key : "AgK1UFPZqmJA4xmd9z77eYMnNz3MLCGk24yG-vHbHHlLa54jJCRBLXiyrNXEpEle",
+				source: new ol.source.BingMaps({key : "AqCpUZtjphRw-Y1O0IbH-rdgatIwrK0mDsmfu6-4WlL03mGCWBr3MUOLsLKfloEO",
 				imagerySet:bingstyles[0]})
 //				source: new ol.source.OSM()
 			}),
@@ -75,7 +89,10 @@ limitations under the License.
 			zoom: 13
 		})
 	});
-
+	function drawVoronoi() {
+		am=document.getElementById("amenity").value
+		overpassQuery=''
+	}
 
 	//document.getElementsByClassName("ol-unselectable");
 
