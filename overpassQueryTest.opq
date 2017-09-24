@@ -1,0 +1,15 @@
+[out:json][timeout:25];
+// gather results
+(
+  // query part for: “"Hospital Grounds"”
+  node["amenity"="hospital"](41.886272470886496,12.48319387435913,41.89371621291292,12.500810623168945);
+  //way["amenity"="hospital"]({{bbox}});
+  relation["amenity"="hospital"](41.886272470886496,12.48319387435913,41.89371621291292,12.500810623168945);
+);
+// print results
+out body;
+>;
+//out skel qt;
+
+
+"/*This+has+been+generated+by+the+overpass-turbo+wizard.The+original+search+was:“"Hospital+Grounds"”*/[out:json][timeout:25];//+gather+results(++//+query+part+for:+“"Hospital+Grounds"”++node["amenity"="hospital"](41.886272470886496,12.48319387435913,41.89371621291292,12.500810623168945);++//way["amenity"="hospital"](41.886272470886496,12.48319387435913,41.89371621291292,12.500810623168945);++relation["amenity"="hospital"](41.886272470886496,12.48319387435913,41.89371621291292,12.500810623168945););//+print+resultsout+body;>;out+skel+qt;"
